@@ -1,7 +1,7 @@
 from setuptools import setup
 from setuptools import find_packages
 
-version = "0.1"
+version = "0.1.1"
 
 setup(name="bw_sphinxtheme",
       version=version,
@@ -12,4 +12,5 @@ setup(name="bw_sphinxtheme",
       url="http://pypi.python.org/pypi/bw_sphinxtheme",
       license="BSD3",
       packages=find_packages(exclude=["ez_setup", "examples", "tests"]),
+      include_package_data=True,
       zip_safe=False)

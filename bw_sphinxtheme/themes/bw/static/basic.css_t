@@ -596,6 +596,10 @@ div.viewcode-block:target {
     padding: 0 10px;
 }
 
+tt.literal {
+  background: #e8e8e8;
+}
+
 span.pre {
   background: #e8e8e8;
   font-size: 90%;

@@ -574,8 +574,7 @@ tt.descclassname {
 }
 
 tt.xref, a tt {
-    background-color: transparent;
-    font-weight: bold;
+  background-color: transparent;
 }
 
 h1 tt, h2 tt, h3 tt, h4 tt, h5 tt, h6 tt {

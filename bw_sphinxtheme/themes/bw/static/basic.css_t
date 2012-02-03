@@ -543,7 +543,7 @@ div.highlight {
 }
 
 pre {
-  margin: 0 1em;
+  margin: 1em 1em;
   font-size: 90%;
   overflow: auto;
   overflow-y: hidden;  /* fixes display issues on Chrome browsers */

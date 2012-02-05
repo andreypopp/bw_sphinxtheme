@@ -611,6 +611,16 @@ dl.module,
 dl.function {
   font-size: 90%;
 }
+dl.function {
+  margin-left: 30px;
+}
+dl.function dt {
+  text-indent: -30px;
+}
+dl.function dd {
+  margin-left: 0px;
+  margin-top: 6px;
+}
 dl.class a,
 dl.module a,
 dl.function a {

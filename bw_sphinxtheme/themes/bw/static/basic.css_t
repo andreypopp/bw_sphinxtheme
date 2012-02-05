@@ -467,8 +467,14 @@ dd {
     margin-left: 30px;
 }
 
-dt:target, .highlighted {
+.highlighted {
     background-color: #fbe54e;
+}
+
+dt:target {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 dl.glossary dt {

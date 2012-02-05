@@ -223,6 +223,9 @@ a {
   color: #444;
 }
 
+a.internal { text-decoration: none; }
+a.internal:hover { text-decoration: underline; }
+
 p {
   font-size: 100%;
 }
